@@ -1,6 +1,5 @@
 // Generated from D:/github_projs/sqlx/src/main/java/com/xusysh/sqlx/parser/grammar\PlSqlLexer.g4 by ANTLR 4.9.1
 package com.xusysh.sqlx.parser.ast;
-import com.xusysh.sqlx.parser.grammar.PlSqlLexerBase;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
