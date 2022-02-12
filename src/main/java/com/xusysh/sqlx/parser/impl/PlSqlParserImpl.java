@@ -2,9 +2,9 @@ package com.xusysh.sqlx.parser.impl;
 
 import com.xusysh.sqlx.model.node.TableInfo;
 import com.xusysh.sqlx.parser.SqlParser;
-import com.xusysh.sqlx.parser.ast.PlSqlLexer;
-import com.xusysh.sqlx.parser.ast.PlSqlParser;
-import com.xusysh.sqlx.parser.ast.PlSqlParserBaseVisitor;
+import com.xusysh.sqlx.parser.ast.plsql.PlSqlLexer;
+import com.xusysh.sqlx.parser.ast.plsql.PlSqlParser;
+import com.xusysh.sqlx.parser.ast.plsql.PlSqlParserBaseVisitor;
 import lombok.Data;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
