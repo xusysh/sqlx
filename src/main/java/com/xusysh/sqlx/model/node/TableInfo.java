@@ -2,6 +2,8 @@ package com.xusysh.sqlx.model.node;
 
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class TableInfo {
 
@@ -12,5 +14,7 @@ public class TableInfo {
     String isView;
 
     String comment;
+
+    List<ColumnInfo> columns;
 
 }
