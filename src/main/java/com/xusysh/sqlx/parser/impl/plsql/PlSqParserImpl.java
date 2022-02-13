@@ -1,4 +1,4 @@
-package com.xusysh.sqlx.parser.impl;
+package com.xusysh.sqlx.parser.impl.plsql;
 
 import com.xusysh.sqlx.model.node.TableInfo;
 import com.xusysh.sqlx.parser.SqlParser;
@@ -14,7 +14,7 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import java.util.Map;
 
 @Data
-public class PlSqlParserImpl extends PlSqlParserBaseVisitor implements SqlParser {
+public class PlSqParserImpl extends PlSqlParserBaseVisitor implements SqlParser {
 
     Map<String, TableInfo> tables;
 
